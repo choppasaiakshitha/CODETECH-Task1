@@ -8,5 +8,10 @@ elif a=="-":
    print(x-y)
 elif a=="*":
    print(x*y)
+elif a == "/":
+    if y != 0:
+        print(f"The result is: {x / y}")
+    else:
+        print("Error: Division by zero is not allowed.")
 else:
-   print(x/y)
+    print("Error: Invalid operation selected.")
